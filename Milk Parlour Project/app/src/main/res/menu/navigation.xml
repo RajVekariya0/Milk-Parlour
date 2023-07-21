@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_route"
+        android:icon="@drawable/icn_bit_bus"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/navigation_filter"
+        android:icon="@drawable/icn_bit_filter"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/navigation_seat"
+        android:icon="@drawable/icn_bit_seat"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/icn_bit_profile"
+        tools:ignore="MenuTitle" />
+
+</menu>

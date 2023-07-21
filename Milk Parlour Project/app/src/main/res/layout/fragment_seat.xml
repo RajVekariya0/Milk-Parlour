@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/tv_toolbarname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dp_20"
+            android:text="Seat"
+            android:gravity="center"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/color_white"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_left"
+                android:layout_below="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:id="@+id/tv_done"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:text="Done"
+                android:textSize="@dimen/dp_20"
+                android:textColor="@color/color_bit"
+                android:background="@drawable/bg_textview_with_label"
+                android:padding="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_below="@+id/rv_left"
+                android:gravity="center"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginRight="@dimen/dp_20"/>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="3dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginBottom="3dp"
+    android:background="@drawable/bg_textview_with_label"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Origin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Destination"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Bus Time"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Date"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Journy Hours"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Total Seats"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text=":"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text=":"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text=":"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text=":"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text=":"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text=":"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_origion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Paras Nagar"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+
+            <TextView
+                android:id="@+id/tv_destination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Hirawadi"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+
+            <TextView
+                android:id="@+id/tv_bustime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="11:00 PM"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="07/05/2021"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+            <TextView
+                android:id="@+id/tv_journyhours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="35 minute"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+            <TextView
+                android:id="@+id/tv_seatcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_dialog_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:textSize="@dimen/dp_20"
+        android:textColor="@color/color_bit"
+        android:background="@drawable/bg_textview_with_label"
+        android:padding="@dimen/dp_10"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_10"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginBottom="@dimen/dp_15"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"/>
+
+</LinearLayout>

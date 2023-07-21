@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.AboutUsActivity">
+
+    <include layout="@layout/layout_header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/dp_150"
+            android:layout_height="@dimen/dp_150"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We are MoveIt - online bus- ticketing Organization. At MoveIt you can check bus schedule, Select your favourite bus, View seat layout, pay and get your bus ticket - All with a few taps on your phone! Book with us for a quick and hassle - free bus booking experience!"
+            android:textSize="@dimen/dp_20"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:fontFamily="@font/poppins_regular"
+            android:lineSpacingExtra="@dimen/dp_5"
+            android:textColor="@color/color_bit"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

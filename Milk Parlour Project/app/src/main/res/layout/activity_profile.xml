@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".views.ProfileActivity">
+
+    <include layout="@layout/layout_header"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_textview_with_label"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:text="hitakshidobariya@gmail.com"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="   Email   "
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/color_bit"
+        android:fontFamily="@font/poppins_regular"
+        android:background="#ffffff"
+        android:textSize="17sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_textview_with_label"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Dobariya Hitakshi"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="   Name   "
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/color_bit"
+            android:background="#ffffff"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_textview_with_label"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:textStyle="bold"
+                android:text="Hitaxi@25"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="   Password   "
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/color_bit"
+            android:background="#ffffff"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

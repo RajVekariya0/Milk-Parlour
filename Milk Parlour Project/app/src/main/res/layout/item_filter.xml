@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_textview_with_label"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Origin"
+                android:textSize="@dimen/dp_20"
+                android:layout_weight="1"
+                android:textColor="@color/color_bit"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Destination"
+                android:textSize="@dimen/dp_20"
+                android:layout_weight="1"
+                android:textColor="@color/color_bit"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bus Time"
+                android:textSize="@dimen/dp_20"
+                android:layout_weight="1"
+                android:textColor="@color/color_bit"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:layout_weight="1"
+                android:textSize="@dimen/dp_20"
+                android:textColor="@color/color_bit"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Journy Hours"
+                android:textSize="@dimen/dp_20"
+                android:layout_weight="1"
+                android:textColor="@color/color_bit"
+                android:fontFamily="@font/poppins_regular"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="@dimen/dp_20"
+                android:layout_weight="1"
+                android:textColor="@color/color_bit"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:layout_weight="1"
+                android:textSize="@dimen/dp_20"
+                android:textColor="@color/color_bit"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="@dimen/dp_20"
+                android:layout_weight="1"
+                android:textColor="@color/color_bit"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:layout_weight="1"
+                android:textSize="@dimen/dp_20"
+                android:textColor="@color/color_bit"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:layout_weight="1"
+                android:textSize="@dimen/dp_20"
+                android:textColor="@color/color_bit"
+                android:fontFamily="@font/poppins_regular"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_origion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Origin"
+                android:textSize="@dimen/dp_20"
+                android:textColor="@color/color_bit"
+                android:fontFamily="@font/poppins_regular"/>
+
+
+            <TextView
+                android:id="@+id/tv_destination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Destination"
+                android:textSize="@dimen/dp_20"
+                android:layout_weight="1"
+                android:textColor="@color/color_bit"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:id="@+id/tv_bustime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bus Time"
+                android:textSize="@dimen/dp_20"
+                android:layout_weight="1"
+                android:textColor="@color/color_bit"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textSize="@dimen/dp_20"
+                android:layout_weight="1"
+                android:textColor="@color/color_bit"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:id="@+id/tv_journyhours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Journy Hours"
+                android:textSize="@dimen/dp_20"
+                android:layout_weight="1"
+                android:textColor="@color/color_bit"
+                android:fontFamily="@font/poppins_regular"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

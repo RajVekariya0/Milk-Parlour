@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#600000</color>
+    <color name="purple_500">#600000</color>
+    <color name="purple_700">#600000</color>
+    <color name="teal_200">#600000</color>
+    <color name="teal_700">#600000</color>
+    <color name="black">#600000</color>
+    <color name="color_bit">#600000</color>
+    <color name="white">#600000</color>
+    <color name="colorPrimaryDark">#600000</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_seat">#600000</color>
+    <color name="color_select_seat">#440303</color>
+
+
+
+</resources>

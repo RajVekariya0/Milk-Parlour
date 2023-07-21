@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.FeedbackActivity">
+
+    <include layout="@layout/layout_header"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_10"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        app:cardCornerRadius="@dimen/dp_20">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_15"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Feedback"
+                android:textColor="#D3D3D3"
+                android:textSize="@dimen/dp_30" />
+
+            <EditText
+                android:id="@+id/edPassword"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_100"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:background="@drawable/bg_edit_text"
+                android:fontFamily="@font/poppins_regular"
+                android:hint="Give Your Valuable Feedback"
+                android:paddingTop="@dimen/dp_5"
+                android:gravity="top"
+                android:singleLine="false"
+                android:layout_gravity="top"
+                android:paddingLeft="@dimen/dp_10" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_20"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        app:cardCornerRadius="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Submit"
+                android:textColor="#D3D3D3"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/tv_toolbarname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dp_20"
+            android:text="User Profile"
+            android:gravity="center"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/color_white"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_profile"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dp_5"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/dp_10"
+                android:text="Profile"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_changepassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_5"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="@font/poppins_regular"
+                android:padding="@dimen/dp_10"
+                android:text="Change Password"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_bookingrecord"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_5"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:padding="@dimen/dp_10"
+                android:text="Booking Record"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_feedback"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_5"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/dp_10"
+                android:text="Feedback"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_contactus"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_5"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/dp_10"
+                android:text="Contact Us"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_aboutus"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_5"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:padding="@dimen/dp_10"
+                android:text="About Us"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tearmsandconditions"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/dp_10"
+                android:text="Tearms &amp; conditions"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="@dimen/dp_20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_logout"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/dp_10"
+                android:text="LogOut"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="@dimen/dp_20" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
